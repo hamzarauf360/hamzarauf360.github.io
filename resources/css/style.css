@@ -1,0 +1,277 @@
+*{
+    
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+html{
+    background-color: white;
+    color: #555;
+    font-family: 'Lato','Arial',sans-serif;
+    font-size: 20px;
+    font-weight: 300;
+    text-rendering: optimizeLegibility;
+}
+
+.row{
+    
+    width: 1140px;
+    margin: 0 auto 0 auto;
+    
+}
+
+#head1{
+    
+    background-image: linear-gradient(rgba(0, 0, 0, 0),rgba(229, 142, 142, 0.38)),url(img/background.jpg);
+    height: 100vh;
+    background-size: cover;
+    background-position: center;
+    
+    
+}
+
+#head2{
+    
+    background-image: linear-gradient(rgba(0, 0, 0, 0),rgba(229, 142, 142, 0.38)),url(img/background.jpg);
+    height: 150vh;
+    background-size: cover;
+    background-position: center;
+    
+    
+}
+
+h1{
+    margin: 0;
+    color: white;
+    font-size: 200%;
+    font-weight: 300;
+    text-transform: uppercase;
+    letter-spacing: 1px;
+    word-spacing: 3px;
+}
+
+.hero-text-box {
+    position: absolute;
+    width: 1140;
+    top: 60%;
+    left: 80%;
+    transform: translate(-80%,-60%);
+}
+
+.btn:link,
+.btn:visited{
+    padding: 0 10px;
+    font-weight: 300;
+    text-decoration: none;  
+    border-radius: 200px;
+    transition: background-color 0.2s, border 0.2s, color 0.2s;
+}
+
+.btn-ghost:link,
+.btn-ghost:visited{
+    border: 1px solid #e67e22;
+    color: #e67e22;
+}
+
+
+.btn:hover,.btn:active{
+    background-color: #cf6d17;
+    
+}
+
+.btn-ghost:hover,.btn-ghost:active{
+    border: 1px solid #cf6d17;
+    color: #fff;
+    
+}
+
+
+
+.logo {
+    margin-top: -70px;
+    height: 250px;
+    widows: auto;
+    float: left;
+}
+
+.main-nav {
+    float: right;
+    list-style: none;
+    
+}
+
+.main-nav li{
+    
+    display: inline-block;
+    margin-left: 40px;
+    margin-top: 50px;
+}
+
+.main-nav li a:link,.main-nav li a:visited{
+    
+    text-decoration: none;  
+    color: white;
+    text-transform: uppercase;
+    font-size: 90%;
+    transition: border-bottom 0.2s;
+    
+
+}
+
+
+.main-nav li a:hover,.main-nav li a:active{
+    
+   border-bottom: 2px solid #e67e22;
+    
+
+}
+
+
+
+
+.copyright-section {
+    margin-top: 20px;
+    text-align: center;
+    color: black;
+}
+
+.pic-and-name {
+    position: absolute;
+    top: 40%;
+    margin-left: 550px;
+    transform: translate(0%,-40%);
+   
+}
+
+
+.pic-and-name img{
+   height: 220px;
+    width: 200px;
+    border-radius: 50%;
+    float: left;
+   
+}
+
+
+.my-name{
+    
+    font-size: 22px;
+    float: left;
+    margin-top: 80px;
+    margin-left: 20px;
+    color: white;
+}
+
+.my-info {
+    margin: auto;
+    width: 60%;
+    border: 1px solid #e67e22;
+    margin-top: 250px;
+    width: 700px;
+    text-align: justify;
+    padding: 10px;
+
+}
+
+.information {
+    color: white;
+    text-align: justify;
+}
+
+.uni-logo-and-info {
+    position: absolute;
+    top: 60%;
+    margin-left:550px;
+    transform: translate(0%,-60%);
+}
+
+.uni-logo-and-info img{
+   height: 220px;
+    width: 200px;
+    border-radius: 50%;
+}
+
+
+
+.edu-info {
+    
+        border: 1px solid #e67e22;
+        margin-top: 10px;
+        margin-left: -200px;
+        width: 60%;
+        width: 700px;
+    height: 200px;
+    
+    
+}
+
+.info-headings{
+    margin-top: 10px;
+    color: #e67e22;
+    
+}
+
+.full-info{
+    color: white;
+    font-size: 15px;
+}
+
+.project-heading{
+    
+     position: absolute;
+    top: 30%;
+    margin-left:550px;
+    transform: translate(0%,-60%);
+    border-bottom: 2px solid #e67e22;
+
+
+    
+}
+.project-main {
+    color: white;
+}
+
+
+
+.project-container {
+    margin-top: 50px;
+    display: inline-block;
+    width: 300px;
+    height: 200px;
+    margin-left: 30px;
+}
+
+
+
+.project-list{
+        color: #e67e22;
+    margin-top: 0px;
+
+    
+}
+.project-des {
+    color: white;
+    font-size: 15px;
+    text-align: justify;
+    padding-top: 10px;
+}
+
+.contact{
+    
+     position: absolute;
+    top: 60%;
+    margin-left: 100px;
+    transform: translate(0%,-40%);
+    
+}
+
+
+.gitimg{
+    
+     border-radius: 50%;
+    height: 200px;
+    width: 250px;
+    margin-left: 70px;
+    
+}
